@@ -1,0 +1,18 @@
+login feature
+signup feature
+--------------------------------
+main profile as mention on photo with yellow line
+--------------------------------
+create post 
+text only
+text with photo
+text with video
+--------------------------------
+finalize time line with all feature
+Timeline
+Timeline About
+Timeline Album
+Timeline Friends
+-------------------------------------
+finalize Contact INFO
+-------------------------------------

@@ -20,10 +20,13 @@ import { TimeFriendsComponent } from './componants/time-lines/time-friends/time-
 import { TimeLineProfileComponent } from './componants/time-lines/time-line-profile/time-line-profile.component';
 import { TimeLineDetailesComponent } from './componants/time-lines/time-line-detailes/time-line-detailes.component';
 import {RouterModule, Routes} from '@angular/router';
+import { LoginComponent } from './componants/login/login.component';
 
 // http://localhost:4200
 
 const routes: Routes = [
+  {path: 'sigin-up', component: SignUpComponent},
+  {path: 'login', component: LoginComponent},
   {path: 'mainpage', component: MainPageComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'timeline', component: TimeLineComponent},
@@ -55,6 +58,7 @@ const routes: Routes = [
     TimeFriendsComponent,
     TimeLineProfileComponent,
     TimeLineDetailesComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
